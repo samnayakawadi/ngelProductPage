@@ -26,11 +26,11 @@ const Organizations = () => {
                         <h2 className="text-3xl font-bold">Corporation</h2>
                         <p className="pt-4">Corporate training and employee onboarding - drive engagement and empower management. We also offer a solution for test owners by providing technology for selling tests online.</p>
                         <ul className="flex flex-col gap-2 pt-4">
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Passed US government security scans</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> On-premise deployment</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Fedramp servers for cloud option</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Section 508 compliance for accessibility</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> GSA Schedule</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Cloud deployment</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Integrations and customization</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Custom branding</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> E-commerce</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Worldwide distribution</li>
                         </ul>
                         <div className="card-actions justify-end pt-4">
                             <button className="btn btn-primary w-full">Learn More</button>
@@ -43,11 +43,11 @@ const Organizations = () => {
                         <h2 className="text-3xl font-bold">Education</h2>
                         <p className="pt-4">The most advanced and secure knowledge examination methods. Ensure your students have an engaging learning experience and motivate them by offering certificates.</p>
                         <ul className="flex flex-col gap-2 pt-4">
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Passed US government security scans</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> On-premise deployment</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Fedramp servers for cloud option</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Section 508 compliance for accessibility</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> GSA Schedule</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Online proctoring</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> UI accessibility</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Top-notch course modules</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Various question types</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multilingual tests and interface</li>
                         </ul>
                         <div className="card-actions justify-end pt-4">
                             <button className="btn btn-primary w-full">Learn More</button>
