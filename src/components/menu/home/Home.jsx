@@ -1,7 +1,9 @@
 import AdvancedFeatures from "./components/AdvancedFeatures"
+import CustomerCarousel from "./components/CustomerCarousel"
 import Features from "./components/Features"
 import Hero from "./components/Hero"
 import Organizations from "./components/Organizations"
+import Stats from "./components/Stats"
 import TrustedBy from "./components/TrustedBy"
 
 const Home = () => {
@@ -21,9 +23,12 @@ const Home = () => {
                 <div className="pt-20">
                     <AdvancedFeatures />
                 </div>
-                <div className="pt-20">
-
-                </div>
+            </div>
+            <div className="pt-14">
+                <Stats />
+            </div>
+            <div className="mb-16">
+                <CustomerCarousel />
             </div>
         </div>
     )

@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 import Home from "./components/menu/home/Home";
 import Navbar from "./components/navbar/Navbar";
 
@@ -11,7 +11,7 @@ function App() {
     <div data-theme={theme}>
       <Navbar setTheme={setTheme} theme={theme} />
       <Home />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
