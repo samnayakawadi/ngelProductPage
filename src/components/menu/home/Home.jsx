@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Hero />
-            <div className="px-20">
+            <div className="px-32">
                 <div className="pt-20">
                     <TrustedBy />
                 </div>
