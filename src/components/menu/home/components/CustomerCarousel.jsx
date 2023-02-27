@@ -5,7 +5,7 @@ import customer_4 from "./images/customerCarousel/customer-4.jpg"
 
 const CustomerCarousel = () => {
     return (
-        <div>
+        <div id="testimonials">
             <div className="hero px-40 pt-16">
                 <div className="hero-content text-center">
                     <div className="max-w-none">

@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-        <div>
+        <div id="statistics">
             <div className="grid grid-cols-3 gap-5 bg-base-200 text-center py-14">
                 <div>
                     <h2 className="text-3xl font-bold pb-2">300,000+</h2>

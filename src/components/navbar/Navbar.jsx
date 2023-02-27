@@ -34,13 +34,21 @@ const Navbar = ({ theme, setTheme }) => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {/* eslint-disable-next-line */}
-                        <li><a>Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         {/* eslint-disable-next-line */}
-                        <li><a>Courses</a></li>
+                        <li><a href="#statistics">Statistics</a></li>
                         {/* eslint-disable-next-line */}
-                        <li><a>Mentors</a></li>
+                        <li><a href="#organizations">Organizations</a></li>
                         {/* eslint-disable-next-line */}
-                        <li><a>About</a></li>
+                        <li><a href="#highlights">Highlights</a></li>
+                        {/* eslint-disable-next-line */}
+                        <li><a href="#features">Features</a></li>
+                        {/* eslint-disable-next-line */}
+                        <li><a href="#clients">Clients</a></li>
+                        {/* eslint-disable-next-line */}
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        {/* eslint-disable-next-line */}
+                        <li><a href="#contact">Get in Touch</a></li>
                         <li>
                             {/* eslint-disable-next-line */}
                             <a>
