@@ -1,8 +1,8 @@
 
 const Organizations = () => {
     return (
-        <div className="px-14">
-            <div className="grid grid-cols-3 gap-10 items-center">
+        <div className="px-0 md:px-14">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
                 <div className="card bg-base-100 shadow-xl h-full">
                     <figure className="h-60"><img src="https://img.freepik.com/free-vector/people-taking-part-political-event-flat-illustration_74855-16914.jpg?w=1060&t=st=1677421571~exp=1677422171~hmac=da4fc41c92499249a9195859d73280aaca1242518bb290ceec047a461a8a25f4" alt="Shoes" /></figure>
                     <div className="card-body">

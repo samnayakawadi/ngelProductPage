@@ -6,7 +6,7 @@ import customer_4 from "./images/customerCarousel/customer-4.jpg"
 const CustomerCarousel = () => {
     return (
         <div id="testimonials">
-            <div className="hero px-40 pt-16">
+            <div className="hero px-5 md:px-40 pt-16">
                 <div className="hero-content text-center">
                     <div className="max-w-none">
                         <h1 className="text-5xl font-bold">What Our Customers Are Saying</h1>
@@ -14,14 +14,14 @@ const CustomerCarousel = () => {
                     </div>
                 </div>
             </div>
-            <div className="px-10">
+            <div className="px-0 md:px-10">
                 <div className="carousel w-full mt-2">
                     <div id="slide1" className="carousel-item relative w-full">
-                        <div className="flex flex-row justify-center items-center gap-5">
-                            <div className="basis-3/12">
+                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
                                 <img className="rounded-3xl" src={customer_3} alt="" />
                             </div>
-                            <div className="basis-7/12">
+                            <div className="basis-full md:basis-7/12 px-20 md:px-0">
                                 <p className="text-2xl">Faiza Venzant</p>
                                 <p className="text-xl">CCVA, Executive Director</p>
                                 <br></br>
@@ -34,11 +34,11 @@ const CustomerCarousel = () => {
                         </div>
                     </div>
                     <div id="slide2" className="carousel-item relative w-full">
-                        <div className="flex flex-row justify-center items-center gap-5">
-                            <div className="basis-3/12">
+                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
                                 <img className="rounded-3xl" src={customer_2} alt="" />
                             </div>
-                            <div className="basis-7/12">
+                            <div className="basis-full md:basis-7/12 px-20 md:px-0">
                                 <p className="text-2xl">Scot Jones</p>
                                 <p className="text-xl">Oakes Academy, Author/Educator</p>
                                 <br></br>
@@ -52,11 +52,11 @@ const CustomerCarousel = () => {
                         </div>
                     </div>
                     <div id="slide3" className="carousel-item relative w-full">
-                        <div className="flex flex-row justify-center items-center gap-5">
-                            <div className="basis-3/12">
+                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0basis-3/12">
                                 <img className="rounded-3xl" src={customer_1} alt="" />
                             </div>
-                            <div className="basis-7/12">
+                            <div className="basis-full md:basis-7/12 px-20 md:px-0">
                                 <p className="text-2xl">Christi McAdams</p>
                                 <p className="text-xl">Global Cannabis Industry Networking Group, CEO</p>
                                 <br></br>
@@ -69,11 +69,11 @@ const CustomerCarousel = () => {
                         </div>
                     </div>
                     <div id="slide4" className="carousel-item relative w-full">
-                        <div className="flex flex-row justify-center items-center gap-5">
-                            <div className="basis-3/12">
+                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
                                 <img className="rounded-3xl" src={customer_4} alt="" />
                             </div>
-                            <div className="basis-7/12">
+                            <div className="basis-full md:basis-7/12 px-20 md:px-0">
                                 <p className="text-2xl">Nicholas Passalacqua</p>
                                 <p className="text-xl">The American Board of Forensic Anthropology, Vice President</p>
                                 <br></br>

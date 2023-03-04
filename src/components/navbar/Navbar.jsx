@@ -8,46 +8,43 @@ const Navbar = ({ theme, setTheme }) => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            {/* eslint-disable-next-line */}
-                            <li><a>Home</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a>Courses</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a>Mentors</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a>About</a></li>
-                            {/* <li tabIndex={0}>
-                                <a className="justify-between">
-                                    Parent
-                                    <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#statistics">Statistics</a></li>
+                            <li><a href="#organizations">Organizations</a></li>
+                            <li><a href="#highlights">Highlights</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#contact">Get in Touch</a></li>
+                            <li><a href="#home">Sign In</a></li>
+                            <li><a href="#home">Register</a></li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a>
+                                    Theme
+                                    <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
                                 </a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                <ul className="p-2 bg-zinc-600 text-white">
+                                    {/* eslint-disable-next-line */}
+                                    <li onClick={() => { setTheme("lofi") }}><a>Light {theme === "lofi" && <i className="fa-solid fa-circle-check" />}</a></li>
+                                    {/* eslint-disable-next-line */}
+                                    <li onClick={() => { setTheme("business") }}><a>Dark {theme === "business" && <i className="fa-solid fa-circle-check" />}</a></li>
                                 </ul>
-                            </li> */}
+                            </li>
                         </ul>
                     </div>
                     {/* eslint-disable-next-line */}
-                    <a className="btn btn-ghost normal-case text-xl"><img width="125" className="max-w-xs" src="http://youtestme.com/wp-content/uploads/2022/05/logo-youtest.png"/></a>
+                    <a className="btn btn-ghost normal-case text-xl"><img width="125" className="max-w-xs" src="http://youtestme.com/wp-content/uploads/2022/05/logo-youtest.png" /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        {/* eslint-disable-next-line */}
                         <li><a href="#home">Home</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#statistics">Statistics</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#organizations">Organizations</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#highlights">Highlights</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#features">Features</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#clients">Clients</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#testimonials">Testimonials</a></li>
-                        {/* eslint-disable-next-line */}
                         <li><a href="#contact">Get in Touch</a></li>
                         <li>
                             {/* eslint-disable-next-line */}
@@ -60,14 +57,11 @@ const Navbar = ({ theme, setTheme }) => {
                                 <li onClick={() => { setTheme("lofi") }}><a>Light {theme === "lofi" && <i className="fa-solid fa-circle-check" />}</a></li>
                                 {/* eslint-disable-next-line */}
                                 <li onClick={() => { setTheme("business") }}><a>Dark {theme === "business" && <i className="fa-solid fa-circle-check" />}</a></li>
-                                {/* <li onClick={() => { setTheme("dark") }}><a>Dark</a></li>
-                                <li onClick={() => { setTheme("corporate") }}><a>Corporate</a></li>
-                                <li onClick={() => { setTheme("dracula") }}><a>Dracula</a></li> */}
                             </ul>
                         </li>
                     </ul>
                 </div>
-                <div className="navbar-end gap-3">
+                <div className="navbar-end gap-3 invisible md:visible">
                     {/* eslint-disable-next-line */}
                     <a className="btn btn-ghost">Sign In</a>
                     {/* eslint-disable-next-line */}

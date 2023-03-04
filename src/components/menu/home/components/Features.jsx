@@ -2,14 +2,14 @@ const Features = () => {
     return (
         <div>
             <div className="flex flex-col justify-items-center items-center gap-4">
-                <div className="px-44">
+                <div className="px-0 md:px-44">
                     <div className="text-3xl text-center">Designed for <span className="font-bold">Government Institutions</span> and <span className="font-bold">Military Organizations, Corporations,</span> and <span className="font-bold">Educational Institutions</span></div>
                     <div className="pt-2 text-center">
                         Our solutions are developed using superior enterprise technologies, and data security is of the highest priority
                     </div>
                 </div>
                 <div className="pt-6">
-                    <div className="grid grid-cols-3 gap-3 items-center px-10">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center px-0 md:px-10">
                         <div className="card bg-base-100 shadow-xl h-full">
                             <div className="card-body gap-5">
                                 <div className="flex flex-row justify-start items-center gap-3">

@@ -8,7 +8,7 @@ const AdvancedFeatures = () => {
     return (
         <div>
             <div>
-                <div className="px-44">
+                <div className="px-0 md:px-44">
                     <div className="text-3xl text-center">Why Choose <span className="font-bold">YouTestMe?</span></div>
                     <div className="pt-2 text-center">
                         A flexible, one-stop solution for all types of online knowledge assessments.

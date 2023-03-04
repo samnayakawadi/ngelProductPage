@@ -14,7 +14,7 @@ const Home = () => {
             {/* <div className="pt-14"> */}
             <Stats />
             {/* </div> */}
-            <div className="px-32">
+            <div className="px-10 md:px-32">
                 <div className="pt-20" id="organizations">
                     <Organizations />
                 </div>
@@ -31,7 +31,7 @@ const Home = () => {
             <div className="mt-14 mb-16">
                 <CustomerCarousel />
             </div>
-            <div className="px-32">
+            <div className="px-10 md:px-32">
                 <GetInTouch />
             </div>
         </div>
