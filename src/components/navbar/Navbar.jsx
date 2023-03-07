@@ -1,3 +1,5 @@
+import logo from "./images/megh-logo.png"
+
 const Navbar = ({ theme, setTheme }) => {
     return (
         <div>
@@ -15,8 +17,8 @@ const Navbar = ({ theme, setTheme }) => {
                             <li><a href="#features">Features</a></li>
                             <li><a href="#clients">Clients</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#contact">Get in Touch</a></li>
-                            <li><a href="#home">Sign In</a></li>
+                            {/* <li><a href="#contact">Get in Touch</a></li>
+                            <li><a href="#home">Sign In</a></li> */}
                             <li><a href="#home">Register</a></li>
                             <li>
                                 {/* eslint-disable-next-line */}
@@ -34,7 +36,7 @@ const Navbar = ({ theme, setTheme }) => {
                         </ul>
                     </div>
                     {/* eslint-disable-next-line */}
-                    <a className="btn btn-ghost normal-case text-xl"><img width="125" className="max-w-xs" src="http://youtestme.com/wp-content/uploads/2022/05/logo-youtest.png" /></a>
+                    <a className="btn btn-ghost normal-case text-xl"><img width="125" className="max-w-xs" src={logo} /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -63,9 +65,8 @@ const Navbar = ({ theme, setTheme }) => {
                 </div>
                 <div className="navbar-end gap-3 invisible md:visible">
                     {/* eslint-disable-next-line */}
-                    <a className="btn btn-ghost">Sign In</a>
-                    {/* eslint-disable-next-line */}
-                    <a className="btn">Register</a>
+                    <a className="btn" href="tel:+919177669936">Call Now</a>
+                    {/* <a className="btn btn-ghost">Sign In</a> */}
                 </div>
             </div>
         </div>

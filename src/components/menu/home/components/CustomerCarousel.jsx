@@ -1,7 +1,7 @@
-import customer_1 from "./images/customerCarousel/customer-1.jpg"
-import customer_2 from "./images/customerCarousel/customer-2.jpg"
-import customer_3 from "./images/customerCarousel/customer-3.jpg"
-import customer_4 from "./images/customerCarousel/customer-4.jpg"
+import customer_1 from "./images/customerCarousel/customer-1.png"
+import customer_2 from "./images/customerCarousel/customer-2.png"
+import customer_3 from "./images/customerCarousel/customer-3.png"
+import customer_4 from "./images/customerCarousel/customer-4.png"
 
 const CustomerCarousel = () => {
     return (
@@ -9,23 +9,23 @@ const CustomerCarousel = () => {
             <div className="hero px-5 md:px-40 pt-16">
                 <div className="hero-content text-center">
                     <div className="max-w-none">
-                        <h1 className="text-5xl font-bold">What Our Customers Are Saying</h1>
-                        <p className="py-6">At YouTestMe, we strive to integrate customer service into every aspect of our bussiness.</p>
+                        <h1 className="text-5xl font-bold">What Our Learners Are Saying</h1>
+                        <p className="py-6">All your feedback is heard to serve our users better</p>
                     </div>
                 </div>
             </div>
             <div className="px-0 md:px-10">
                 <div className="carousel w-full mt-2">
-                    <div id="slide1" className="carousel-item relative w-full">
+                    <div id="slide1" className="carousel-item relative w-full justify-center">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
-                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
-                                <img className="rounded-3xl" src={customer_3} alt="" />
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
+                                <img className="rounded-3xl md:max-w-xs" src={customer_1} alt="" />
                             </div>
                             <div className="basis-full md:basis-7/12 px-20 md:px-0">
-                                <p className="text-2xl">Faiza Venzant</p>
-                                <p className="text-xl">CCVA, Executive Director</p>
+                                <p className="text-2xl">Krishnakanth G</p>
+                                <p className="text-xl">Embedded Software Engineer, Visteon Corporation</p>
                                 <br></br>
-                                <p className="">"Customer service at its best! GInI is the world’s leading professional certification, accreditation, and membership association in the field of innovation. Therefore, our exam center has to be secure, professional, and full of features that reflect the nature of our work and YouTestMe sure did provide that. Their support team work hard to deliver on time while coming up with new ideas and updates the whole time. If you are looking for a software that would upgrade your work then it is definitely the one."</p>
+                                <p className="">"I would like to express my thanks to the entire team for organizing such a wonderful course on Hardware. The course contents help me to understand the schematics easily and do my work without many issues."</p>
                             </div>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -33,17 +33,16 @@ const CustomerCarousel = () => {
                             <a href="#slide2" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" className="carousel-item relative w-full">
+                    <div id="slide2" className="carousel-item relative w-full justify-center">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
-                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
-                                <img className="rounded-3xl" src={customer_2} alt="" />
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
+                                <img className="rounded-3xl md:max-w-xs" src={customer_2} alt="" />
                             </div>
                             <div className="basis-full md:basis-7/12 px-20 md:px-0">
-                                <p className="text-2xl">Scot Jones</p>
-                                <p className="text-xl">Oakes Academy, Author/Educator</p>
+                                <p className="text-2xl">Archisman Shekhar</p>
+                                <p className="text-xl">Student, SJB Institute of Technology</p>
                                 <br></br>
-                                <p className="">"Many alternatives were considered. Each one has had strengths, but for us, only YouTestMe has come close to being able to offer a combination of question branching, real-time data display, etc. It has been the most complete package. Overall very responsive team, excellent onboarding with video training included if needed. Lots of features for testing – much more robust than most other similar options.
-                                    Customizations are included; I have found the team very engaged in getting the environment, including some unique elements, integrated."</p>
+                                <p className="">"I always appreciate the role of C-DAC in upskilling the student's talent. During the time of this pandemic, the C-DAC Mentor course was a great help for me to learn new things. Its student-friendly course benefits students to a great extent. Thanks for coming up with such ideas."</p>
                             </div>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -51,16 +50,16 @@ const CustomerCarousel = () => {
                             <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" className="carousel-item relative w-full">
+                    <div id="slide3" className="carousel-item relative w-full justify-center">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
-                            <div className="basis-full md:basis-3/12 px-20 md:px-0basis-3/12">
-                                <img className="rounded-3xl" src={customer_1} alt="" />
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
+                                <img className="rounded-3xl md:max-w-xs" src={customer_3} alt="" />
                             </div>
                             <div className="basis-full md:basis-7/12 px-20 md:px-0">
-                                <p className="text-2xl">Christi McAdams</p>
-                                <p className="text-xl">Global Cannabis Industry Networking Group, CEO</p>
+                                <p className="text-2xl">Bharadwaj Tirumala</p>
+                                <p className="text-xl">Senior Technical Assistant, Indian Institute of Geomagnetism</p>
                                 <br></br>
-                                <p className="">"A software that delivers and a support team that cares! The features cover all our needs and so much more at an affordable rate with the option to grow and expand based on the number of users, so it grows with your company. It is a learning curve, but I am impatient and want to know everything right away. The support team, however, is excellent and very responsive! The main reasons for switching to YouTestMe GetCertified are its features, functions, reliability, support services, and ability to scale."</p>
+                                <p className="">"What I liked most about the course was that the attention was given to the individual participant in the form of one-on-one online sessions for clarifying doubts. I thank C-DAC for offering this course and I look forward to joining such courses from C-DAC in the future"</p>
                             </div>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -68,16 +67,16 @@ const CustomerCarousel = () => {
                             <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide4" className="carousel-item relative w-full">
-                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
-                            <div className="basis-full md:basis-3/12 px-20 md:px-0">
-                                <img className="rounded-3xl" src={customer_4} alt="" />
+                    <div id="slide4" className="carousel-item relative w-full justify-center">
+                        <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center md:gap-20">
+                            <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
+                                <img className="rounded-3xl md:max-w-xs" src={customer_4} alt="" />
                             </div>
                             <div className="basis-full md:basis-7/12 px-20 md:px-0">
-                                <p className="text-2xl">Nicholas Passalacqua</p>
-                                <p className="text-xl">The American Board of Forensic Anthropology, Vice President</p>
+                                <p className="text-2xl">Gayatri</p>
+                                <p className="text-xl">Student (CSE), BVRIT HYDERABAD College of Engineering for Women</p>
                                 <br></br>
-                                <p className="">"YouTestMe is great for online testing. Overall using YouTestMe has been a great experience .YouTestMe is a really great, affordable platform for online testing, with or without remote proctoring. It would be nice if the system allowed for viewing of 3D models as part of questions. We chose YouTestMe based on its affordable cost combined with its functionality."</p>
+                                <p className="">"I would like to thank you for your tremendous support. Your course is challenging and fruitful."</p>
                             </div>
                         </div>
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

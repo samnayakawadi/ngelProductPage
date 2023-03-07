@@ -7,51 +7,51 @@ const Organizations = () => {
                     <figure className="h-60"><img src="https://img.freepik.com/free-vector/people-taking-part-political-event-flat-illustration_74855-16914.jpg?w=1060&t=st=1677421571~exp=1677422171~hmac=da4fc41c92499249a9195859d73280aaca1242518bb290ceec047a461a8a25f4" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Government</h2>
-                        <p className="pt-4">Superior IT solutions for compliance training and testing for government employees. The examination process is highly secured to ensure the integrity of government certifications.</p>
+                        <p className="pt-4">Meghsikshak is a versatile tool that serves multiple needs of delivering online education for skill upgradation, capacity building, training, campaigns, credential programs, knowledge enhancement, etc. </p>
                         <ul className="flex flex-col gap-2 pt-4">
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Passed US government security scans</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> On-premise deployment</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Fedramp servers for cloud option</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Section 508 compliance for accessibility</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> GSA Schedule</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Seamless Content Distribution </li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Secure and Scalable </li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multilingual support</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Complete Control</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Easy to Manage</li>
                         </ul>
-                        <div className="card-actions justify-end pt-4">
+                        {/* <div className="card-actions justify-end pt-4">
                             <button className="btn btn-primary w-full">Learn More</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl h-full">
                     <figure className="h-60"><img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg?w=1060&t=st=1677422980~exp=1677423580~hmac=d48cc0090b92988a2b5d1ddfde584e088b029e5bb3af654a042d11fae982fcbe" alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Corporation</h2>
-                        <p className="pt-4">Corporate training and employee onboarding - drive engagement and empower management. We also offer a solution for test owners by providing technology for selling tests online.</p>
+                        <p className="pt-4">Meghsikshak comes in handy to Corporates to offer job-based skills, knowledge management, skill evaluation leading to promotion, etc.</p>
                         <ul className="flex flex-col gap-2 pt-4">
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Cloud deployment</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Integrations and customization</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Cloud-enabled </li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Easy Integration and Customization</li>
                             <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Custom branding</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> E-commerce</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Worldwide distribution</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Intuitive User interface</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Compliance to Standards</li>
                         </ul>
-                        <div className="card-actions justify-end pt-4">
+                        {/* <div className="card-actions justify-end pt-4">
                             <button className="btn btn-primary w-full">Learn More</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl h-full">
                     <figure className="h-60"><img src="https://img.freepik.com/free-vector/young-people-walking-front-college-university-flat-illustration_74855-14224.jpg?w=1060&t=st=1677423211~exp=1677423811~hmac=7e38f195da22a0cb1612b3cee8ea78bd5e6c4292210073e176bdda62971d48bc" alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="text-3xl font-bold">Education</h2>
-                        <p className="pt-4">The most advanced and secure knowledge examination methods. Ensure your students have an engaging learning experience and motivate them by offering certificates.</p>
+                        <h2 className="text-3xl font-bold">Academia</h2>
+                        <p className="pt-4">Meghsikshak enables anytime anywhere access to online content to students in a structured manner for self-paced learning. </p>
                         <ul className="flex flex-col gap-2 pt-4">
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Online proctoring</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> UI accessibility</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Top-notch course modules</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Various question types</li>
-                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multilingual tests and interface</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Supports Multiple Content Formats</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Modular Content Presentation </li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Elaborate Performance Tracking</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multiformat Assessment</li>
+                            <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> User Communication Services</li>
                         </ul>
-                        <div className="card-actions justify-end pt-4">
+                        {/* <div className="card-actions justify-end pt-4">
                             <button className="btn btn-primary w-full">Learn More</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
