@@ -3,7 +3,7 @@ import meghsikshak from "./images/hero/meghsikshak.png"
 const Hero = () => {
     return (
         <div id="home">
-            <div className="py-20 bg-base-200 px-10 md:px-32">
+            <div className="pt-40 pb-10 bg-base-200 px-10 md:px-32">
                 <div className="flex flex-row flex-wrap justify-center items-center">
                     <div className="basis-full md:basis-7/12">
                         <div className="p-0 md:px-20">

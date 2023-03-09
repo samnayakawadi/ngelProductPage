@@ -3,7 +3,7 @@ import logo from "./images/megh-logo.png"
 const Navbar = ({ theme, setTheme }) => {
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100 fixed w-full z-20 top-0 left-0">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,9 +17,7 @@ const Navbar = ({ theme, setTheme }) => {
                             <li><a href="#features">Features</a></li>
                             <li><a href="#clients">Clients</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
-                            {/* <li><a href="#contact">Get in Touch</a></li>
-                            <li><a href="#home">Sign In</a></li> */}
-                            <li><a href="#home">Register</a></li>
+                            <li><a href="#contact">Get in Touch</a></li>
                             <li>
                                 {/* eslint-disable-next-line */}
                                 <a>
@@ -33,10 +31,11 @@ const Navbar = ({ theme, setTheme }) => {
                                     <li onClick={() => { setTheme("business") }}><a>Dark {theme === "business" && <i className="fa-solid fa-circle-check" />}</a></li>
                                 </ul>
                             </li>
+                            <li><a href="tel:+919177669936">Call Now</a></li>
                         </ul>
                     </div>
                     {/* eslint-disable-next-line */}
-                    <a className="btn btn-ghost normal-case text-xl"><img width="125" className="max-w-xs" src={logo} /></a>
+                    <a className="ml-5 btn btn-ghost normal-case text-xl"><img width="50" className="max-w-xs" src={logo} /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -48,6 +47,12 @@ const Navbar = ({ theme, setTheme }) => {
                         <li><a href="#clients">Clients</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Get in Touch</a></li>
+                    </ul>
+                </div>
+                <div className="navbar-end gap-3 invisible md:visible">
+                    {/* <a className="btn" href="tel:+919177669936">Call Now</a> */}
+
+                    <ul className="menu menu-horizontal px-1">
                         <li>
                             {/* eslint-disable-next-line */}
                             <a>
@@ -62,11 +67,6 @@ const Navbar = ({ theme, setTheme }) => {
                             </ul>
                         </li>
                     </ul>
-                </div>
-                <div className="navbar-end gap-3 invisible md:visible">
-                    {/* eslint-disable-next-line */}
-                    <a className="btn" href="tel:+919177669936">Call Now</a>
-                    {/* <a className="btn btn-ghost">Sign In</a> */}
                 </div>
             </div>
         </div>

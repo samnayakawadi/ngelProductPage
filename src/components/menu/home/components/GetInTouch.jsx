@@ -1,7 +1,7 @@
 import getInTouchImage from "./images/getInTouch/contact-trans.png"
 const GetInTouch = () => {
     return (
-        <div className="px-0 sm:px-1 md:px-5 lg:px-20 xl:px-40 2xl:px-72" id="contact">
+        <div className="px-0 sm:px-1 md:px-5 lg:px-20 xl:px-40 2xl:px-80">
             <div className="card bg-base-100 shadow-md">
                 <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center">
                     <div className="basis-full md:basis-7/12 p-10 md:pl-10">

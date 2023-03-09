@@ -16,7 +16,7 @@ const CustomerCarousel = () => {
             </div>
             <div className="px-0 md:px-10">
                 <div className="carousel w-full mt-2">
-                    <div id="slide1" className="carousel-item relative w-full justify-center">
+                    <div id="slide1" className="carousel-item relative w-full justify-center pt-16">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
                             <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
                                 <img className="rounded-3xl md:max-w-xs" src={customer_1} alt="" />
@@ -28,12 +28,12 @@ const CustomerCarousel = () => {
                                 <p className="">"I would like to express my thanks to the entire team for organizing such a wonderful course on Hardware. The course contents help me to understand the schematics easily and do my work without many issues."</p>
                             </div>
                         </div>
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 pt-16">
                             <a href="#slide4" className="btn btn-circle">❮</a>
                             <a href="#slide2" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide2" className="carousel-item relative w-full justify-center">
+                    <div id="slide2" className="carousel-item relative w-full justify-center pt-16">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
                             <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
                                 <img className="rounded-3xl md:max-w-xs" src={customer_2} alt="" />
@@ -45,12 +45,12 @@ const CustomerCarousel = () => {
                                 <p className="">"I always appreciate the role of C-DAC in upskilling the student's talent. During the time of this pandemic, the C-DAC Mentor course was a great help for me to learn new things. Its student-friendly course benefits students to a great extent. Thanks for coming up with such ideas."</p>
                             </div>
                         </div>
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 pt-16">
                             <a href="#slide1" className="btn btn-circle">❮</a>
                             <a href="#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" className="carousel-item relative w-full justify-center">
+                    <div id="slide3" className="carousel-item relative w-full justify-center pt-16">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center gap-5">
                             <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
                                 <img className="rounded-3xl md:max-w-xs" src={customer_3} alt="" />
@@ -62,12 +62,12 @@ const CustomerCarousel = () => {
                                 <p className="">"What I liked most about the course was that the attention was given to the individual participant in the form of one-on-one online sessions for clarifying doubts. I thank C-DAC for offering this course and I look forward to joining such courses from C-DAC in the future"</p>
                             </div>
                         </div>
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 pt-16">
                             <a href="#slide2" className="btn btn-circle">❮</a>
                             <a href="#slide4" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide4" className="carousel-item relative w-full justify-center">
+                    <div id="slide4" className="carousel-item relative w-full justify-center pt-16">
                         <div className="flex flex-row flex-wrap md:flex-nowrap justify-center items-center md:gap-20">
                             <div className="basis-full md:basis-3/12 px-20 md:px-0 flex flex-row justify-center">
                                 <img className="rounded-3xl md:max-w-xs" src={customer_4} alt="" />
@@ -79,7 +79,7 @@ const CustomerCarousel = () => {
                                 <p className="">"I would like to thank you for your tremendous support. Your course is challenging and fruitful."</p>
                             </div>
                         </div>
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 pt-16">
                             <a href="#slide3" className="btn btn-circle">❮</a>
                             <a href="#slide1" className="btn btn-circle">❯</a>
                         </div>

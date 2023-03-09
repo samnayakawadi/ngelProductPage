@@ -1,10 +1,13 @@
+import government from "./images/organizations/government.png"
+import corporate from "./images/organizations/corporate.jpg"
+import school from "./images/organizations/education.jpg"
 
 const Organizations = () => {
     return (
         <div className="px-0 md:px-14">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
                 <div className="card bg-base-100 shadow-xl h-full">
-                    <figure className="h-60"><img src="https://img.freepik.com/free-vector/people-taking-part-political-event-flat-illustration_74855-16914.jpg?w=1060&t=st=1677421571~exp=1677422171~hmac=da4fc41c92499249a9195859d73280aaca1242518bb290ceec047a461a8a25f4" alt="Shoes" /></figure>
+                    <figure className="h-60"><img src={government} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Government</h2>
                         <p className="pt-4">Meghsikshak is a versatile tool that serves multiple needs of delivering online education for skill upgradation, capacity building, training, campaigns, credential programs, knowledge enhancement, etc. </p>
@@ -21,7 +24,7 @@ const Organizations = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl h-full">
-                    <figure className="h-60"><img src="https://img.freepik.com/free-vector/people-analyzing-growth-charts_23-2148866843.jpg?w=1060&t=st=1677422980~exp=1677423580~hmac=d48cc0090b92988a2b5d1ddfde584e088b029e5bb3af654a042d11fae982fcbe" alt="Shoes" /></figure>
+                    <figure className="h-60"><img src={corporate} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Corporation</h2>
                         <p className="pt-4">Meghsikshak comes in handy to Corporates to offer job-based skills, knowledge management, skill evaluation leading to promotion, etc.</p>
@@ -38,7 +41,7 @@ const Organizations = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 shadow-xl h-full">
-                    <figure className="h-60"><img src="https://img.freepik.com/free-vector/young-people-walking-front-college-university-flat-illustration_74855-14224.jpg?w=1060&t=st=1677423211~exp=1677423811~hmac=7e38f195da22a0cb1612b3cee8ea78bd5e6c4292210073e176bdda62971d48bc" alt="Shoes" /></figure>
+                    <figure className="h-60"><img src={school} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h2 className="text-3xl font-bold">Academia</h2>
                         <p className="pt-4">Meghsikshak enables anytime anywhere access to online content to students in a structured manner for self-paced learning. </p>

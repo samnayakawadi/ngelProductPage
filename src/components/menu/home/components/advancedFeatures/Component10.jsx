@@ -2,7 +2,7 @@ import assessmentAuthoring from "../images/advancedFeatures/assessmentAuthoring.
 
 const Component10 = () => {
     return (
-        <div className="px-5 md:px-20 py-14 bg-base-200">
+        <div className="px-5 md:px-20 py-10 bg-base-200">
             <div className="flex justify-center items-center gap-4 flex-row-reverse flex-wrap md:flex-nowrap">
                 <div className="basis-full md:basis-6/12">
                     <h2 className="text-3xl font-bold">Quiz Creation</h2>
