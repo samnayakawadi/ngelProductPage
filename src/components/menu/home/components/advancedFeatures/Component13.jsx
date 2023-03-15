@@ -7,12 +7,12 @@ const Component13 = () => {
                 <div className="basis-full md:basis-6/12">
                     <h2 className="text-3xl font-bold">Multiple Roles</h2>
                     <p className="pt-4">
-                        Our learning platform has three responsibilities. The learner, instructor, and admin. The instructor develops, oversees, and submits the content to the admin for approval. It is either approved or denied by the admin. The learner can then consume the content as needed. The instructor prepares the quizzes, assigns them to the learners, and the learners take the quizzes on their own in the integrated assessment modules.
+                        Our learning platform has three user roles. The learner, instructor, and admin.
                     </p>
                     <ul className="flex flex-col gap-2 pt-4">
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Instructor</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Learner</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Admin</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Instructor - develops, oversees, and submits the content to the admin for approval</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Learner - Consumes the content on a self-paced manner</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Admin - Overall administration of the platform</li>
                     </ul>
                     {/* <div className="flex flex-row justify-start gap-4 pt-4 flex-wrap md:flex-nowrap">
                         <button className="btn btn-primary">See All Features</button>

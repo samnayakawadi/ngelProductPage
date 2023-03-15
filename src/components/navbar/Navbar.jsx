@@ -12,7 +12,7 @@ const Navbar = ({ theme, setTheme }) => {
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a href="#home">Home</a></li>
                             <li><a href="#statistics">Statistics</a></li>
-                            <li><a href="#organizations">Organizations</a></li>
+                            <li><a href="#organizations">Target Groups</a></li>
                             <li><a href="#highlights">Highlights</a></li>
                             <li><a href="#features">Features</a></li>
                             <li><a href="#clients">Clients</a></li>
@@ -35,13 +35,13 @@ const Navbar = ({ theme, setTheme }) => {
                         </ul>
                     </div>
                     {/* eslint-disable-next-line */}
-                    <a className="ml-5 btn btn-ghost normal-case text-xl"><img width="50" className="max-w-xs" src={logo} /></a>
+                    <a className="ml-5 btn btn-ghost normal-case text-xl"><img width="180" className="max-w-xs" src={logo} /></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#statistics">Statistics</a></li>
-                        <li><a href="#organizations">Organizations</a></li>
+                        <li><a href="#organizations">Target Groups</a></li>
                         <li><a href="#highlights">Highlights</a></li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#clients">Clients</a></li>
