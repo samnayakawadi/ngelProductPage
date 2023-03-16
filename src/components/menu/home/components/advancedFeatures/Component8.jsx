@@ -6,7 +6,7 @@ const Component8 = () => {
             <div className="flex justify-center items-center gap-4 flex-row-reverse flex-wrap md:flex-nowrap">
                 <div className="basis-full md:basis-6/12">
                     <h2 className="text-3xl font-bold">Ask the Instructor</h2>
-                    <p className="pt-4">Enables the learners to post questions to the course instructor on a one-to-one mode.</p>
+                    <p className="pt-4">Enables the learners to post questions to the Course Instructor on a one-to-one mode.</p>
                     <ul className="flex flex-col gap-2 pt-4">
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Query management module</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Personalised communication between Instructor & Learner</li>

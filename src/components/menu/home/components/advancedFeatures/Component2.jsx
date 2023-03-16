@@ -8,8 +8,8 @@ const Component2 = () => {
                     <h2 className="text-3xl font-bold">Multilingual Application</h2>
                     <p className="pt-4">Truly multilingual with support to all constitutionally recognised Indian languages, besides English. </p>
                     <ul className="flex flex-col gap-2 pt-4">
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multiple Languages</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Supports Adding New Language</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Supports Multiple Indian Languages</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Supports adding new Language</li>
                     </ul>
                     {/* <div className="flex flex-row justify-start gap-4 pt-4 flex-wrap md:flex-nowrap">
                         <button className="btn btn-primary">See All Features</button>

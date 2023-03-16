@@ -5,7 +5,7 @@ const Component6 = () => {
         <div className="px-5 md:px-20 py-10 md:py-0 bg-base-200">
             <div className="flex justify-center items-center gap-4 flex-row-reverse flex-wrap md:flex-nowrap">
                 <div className="basis-full md:basis-6/12">
-                    <h2 className="text-3xl font-bold">Discussion</h2>
+                    <h2 className="text-3xl font-bold">Discussion Forum</h2>
                     <p className="pt-4">Facilitates peer to peer communication and learning. </p>
                     <ul className="flex flex-col gap-2 pt-4">
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Moderated by Instructors</li>

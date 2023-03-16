@@ -8,8 +8,11 @@ const Hero = () => {
                     <div className="basis-full md:basis-7/12">
                         <div className="p-0 md:px-20">
                             <h1 className="text-4xl font-bold">The Best Enterprise Software for Online Learning</h1>
-                            <p className="pt-6">Web-based enterprise application for training, knowledge evaluation, certification, and examinations.</p>
-                            <p className="pt-2 pb-6">Have full control over your application and data. Designed for large corporations and government institutions.</p>
+                            {/* <p className="pt-6">Web-based enterprise application for training, knowledge evaluation, certification, and examinations.</p> */}
+                            <p className="pt-6">A one-stop web-based enterprise application to fulfil your online education goals - training, skill upgradation, knowledge evaluation, certification, and examinations.</p>
+                            {/* <p className="pt-2 pb-6">Have full control over your application and data. Designed for large corporations and government institutions.</p> */}
+                            <p className="pt-2">Ensures full control over your application and data.</p>
+                            <p className="pt-2 pb-6">Designed for government institutions and large corporations.</p>
                             <div className="flex flex-start gap-3 flex-wrap">
                                 {/* <button className="btn btn-primary">Watch a Video</button> */}
                                 <a href="mailto:meghsikshak@cdac.in">

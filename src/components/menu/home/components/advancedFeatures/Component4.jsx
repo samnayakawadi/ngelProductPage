@@ -9,8 +9,8 @@ const Component4 = () => {
                     <p className="pt-4">Well structured and learner friendly organisation of course content to enable fruitful learning experience.</p>
                     <ul className="flex flex-col gap-2 pt-4">
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Parent-Child Hierarchy</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Intructor friendly content Organiser.</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Multiple Content Types (Images/Videos/Documents)</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Intructor friendly content Organiser</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Supports Multiple Content Types (Images/Videos/Documents)</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Progressive display of content based on user consumption</li>
                         {/* <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Easy User Interface</li> */}
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Track Content Completion Progress</li>

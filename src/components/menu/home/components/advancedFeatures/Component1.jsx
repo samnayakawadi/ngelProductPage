@@ -8,10 +8,10 @@ const Component1 = () => {
                     <h2 className="text-3xl font-bold">Secure Registration & Login</h2>
                     <p className="pt-4">Well-designed secure registration and login ensure swift onboarding of users with analytics to learn more about them.</p>
                     <ul className="flex flex-col gap-2 pt-4">
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Accommodates multiple login methods </li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Upload User Photograph & Document</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Accommodates multiple login methods</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> User Document Upload – personalisation & authentication</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Secured with Captcha</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Error Validations</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Error Validations with adaptive messages</li>
                     </ul>
                     {/* <div className="flex flex-row justify-start gap-4 pt-4 flex-wrap md:flex-nowrap">
                         <button className="btn btn-primary">See All Features</button>

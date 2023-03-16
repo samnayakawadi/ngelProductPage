@@ -6,11 +6,14 @@ const Component13 = () => {
             <div className="flex justify-center items-center gap-4 flex-row flex-wrap md:flex-nowrap">
                 <div className="basis-full md:basis-6/12">
                     <h2 className="text-3xl font-bold">Multiple Roles</h2>
-                    <p className="pt-4">
+                    {/* <p className="pt-4">
                         Our learning platform has three user roles. The learner, instructor, and admin.
+                    </p> */}
+                    <p className="pt-4">
+                        Our learning platform has primarily, three user roles - Learner, Instructor and Admin.
                     </p>
                     <ul className="flex flex-col gap-2 pt-4">
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Instructor - develops, oversees, and submits the content to the admin for approval</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Instructor - Develops, oversees, and submits the content to the admin for approval</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Learner - Consumes the content on a self-paced manner</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Admin - Overall administration of the platform</li>
                     </ul>

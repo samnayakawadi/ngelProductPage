@@ -6,12 +6,19 @@ const Component10 = () => {
             <div className="flex justify-center items-center gap-4 flex-row-reverse flex-wrap md:flex-nowrap">
                 <div className="basis-full md:basis-6/12">
                     <h2 className="text-3xl font-bold">Quiz Creation</h2>
-                    <p className="pt-4">The assessment module has been separately built by us. It is built into our LMS by default. This module has the same roles as LMS. The quiz can be created by the instructor, who can then add the questions, assign the quiz to users retrieved from the LMS, and allow users to take the test. There are numerous features offered.</p>
+                    {/* <p className="pt-4">The assessment module has been separately built by us. It is built into our LMS by default. This module has the same roles as LMS. The quiz can be created by the instructor, who can then add the questions, assign the quiz to users retrieved from the LMS, and allow users to take the test. There are numerous features offered.</p> */}
+                    <p className="pt-4">The built-in assessment module enables Course Instructors to create Quizzes for meaningful assessment of learners’ learning levels. There are numerous features offered.</p>
                     <ul className="flex flex-col gap-2 pt-4">
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Question Editor</li>
+                        {/* <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Question Editor</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Quiz & Section Editor</li>
                         <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Assign Editor</li>
-                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Import Editor</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Import Editor</li> */}
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> User friendly Question Editor</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Structured Quiz Organiser</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Learner and context specific Quiz Assigner</li>
+                        {/* <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Quiz & Section Editor</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Assign Editor</li>
+                        <li className="flex flex-row gap-4 justify-start items-center"><i className="fa-solid fa-circle-check" /> Import Editor</li> */}
                     </ul>
                     {/* <div className="flex flex-row justify-start gap-4 pt-4 flex-wrap md:flex-nowrap">
                         <button className="btn btn-primary">See All Features</button>

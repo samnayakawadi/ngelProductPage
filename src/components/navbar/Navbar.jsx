@@ -11,9 +11,12 @@ const Navbar = ({ theme, setTheme }) => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><a href="#home">Home</a></li>
-                            <li><a href="#statistics">Statistics</a></li>
+                            {/* <li><a href="#statistics">Statistics</a></li>
                             <li><a href="#organizations">Target Groups</a></li>
-                            <li><a href="#highlights">Highlights</a></li>
+                            <li><a href="#highlights">Highlights</a></li> */}
+                            <li><a href="#statistics">Utility Stats</a></li>
+                            <li><a href="#organizations">Target Users</a></li>
+                            <li><a href="#highlights">Overview</a></li>
                             <li><a href="#features">Features</a></li>
                             <li><a href="#clients">Clients</a></li>
                             <li><a href="#testimonials">Testimonials</a></li>
@@ -40,9 +43,12 @@ const Navbar = ({ theme, setTheme }) => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#statistics">Statistics</a></li>
+                        {/* <li><a href="#statistics">Statistics</a></li>
                         <li><a href="#organizations">Target Groups</a></li>
-                        <li><a href="#highlights">Highlights</a></li>
+                        <li><a href="#highlights">Highlights</a></li> */}
+                        <li><a href="#statistics">Utility Stats</a></li>
+                        <li><a href="#organizations">Target Users</a></li>
+                        <li><a href="#highlights">Overview</a></li>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#clients">Clients</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
