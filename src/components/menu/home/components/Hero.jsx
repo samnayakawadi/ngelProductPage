@@ -16,7 +16,7 @@ const Hero = () => {
                             <div className="flex flex-start gap-3 flex-wrap">
                                 {/* <button className="btn btn-primary">Watch a Video</button> */}
                                 <a href="mailto:meghsikshak@cdac.in">
-                                    <button className="btn btn-primary">Get In Touch</button>
+                                    <label htmlFor="getInTouchModal" className="btn btn-primary normal-case">Get In Touch</label>
                                 </a>
                             </div>
                         </div>

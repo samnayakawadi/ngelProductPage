@@ -1,9 +1,9 @@
-// import cloud from "./images/highlights/cloud.png"
-// import compliant from "./images/highlights/compliant.png"
-// import edit from "./images/highlights/edit.png"
-// import integrate from "./images/highlights/integrate.png"
-// import interfaceImage from "./images/highlights/interface.png"
-// import secure from "./images/highlights/secure.png"
+import cloud from "./images/highlights/cloud.png"
+import compliant from "./images/highlights/compliant.png"
+import edit from "./images/highlights/edit.png"
+import integrate from "./images/highlights/integrate.png"
+import interfaceImage from "./images/highlights/interface.png"
+import secure from "./images/highlights/secure.png"
 
 
 const Features = () => {
@@ -23,7 +23,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={cloud} alt="" /> */}
                                     {/* <i className="fa-solid fa-cloud" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/icloud.png" alt="" />
+                                    <img width={35} src={cloud} alt="" />
                                     <h2 className="card-title">Offered on Cloud or On-Premise</h2>
                                 </div>
                                 <p>Offers flexible models of platform access - Cloud-based service or a Standalone application hosted at your premise.</p>
@@ -34,7 +34,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={edit} alt="" /> */}
                                     {/* <i className="fa-solid fa-file-pen" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/project-setup.png" alt="" />
+                                    <img width={35} src={edit} alt="" />
                                     <h2 className="card-title">Easy Customization</h2>
                                 </div>
                                 <p>Easy customization to meet your needs is our forte and Meghsikshak’s unique adaptability </p>
@@ -45,7 +45,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={integrate} alt="" /> */}
                                     {/* <i className="fa-solid fa-plug" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/puzzle-matching.png" alt="" />
+                                    <img width={35} src={integrate} alt="" />
                                     <h2 className="card-title">Seamless Integrations</h2>
                                 </div>
                                 <p>Enables seamless integration with existing applications/services to minimize disruption of ongoing services</p>
@@ -56,7 +56,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={secure} alt="" /> */}
                                     {/* <i className="fa-solid fa-lock" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/security-checked--v1.png" alt="" />
+                                    <img width={35} src={secure} alt="" />
                                     <h2 className="card-title">Secure and Scalable</h2>
                                 </div>
                                 <p>Developed to be secure and scalable in all aspects.</p>
@@ -67,7 +67,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={interfaceImage} alt="" /> */}
                                     {/* <i className="fa-solid fa-window-restore" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/dashboard-layout.png" alt="" />
+                                    <img width={35} src={interfaceImage} alt="" />
                                     <h2 className="card-title">Intuitive User Interface</h2>
                                 </div>
                                 <p>A responsive, user-friendly, and intuitive user interface that maximizes platform utility</p>
@@ -78,7 +78,7 @@ const Features = () => {
                                 <div className="flex flex-row justify-start items-center gap-3">
                                     {/* <img src={compliant} alt="" /> */}
                                     {/* <i className="fa-solid fa-compact-disc" /> */}
-                                    <img width={35} src="https://img.icons8.com/color/48/null/inspection.png" alt="" />
+                                    <img width={35} src={compliant} alt="" />
                                     <h2 className="card-title">Standards Compliance </h2>
                                 </div>
                                 <p>Compliant with major standards such as QTI for assessment and SCORM for content distribution.</p>
